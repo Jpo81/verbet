@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERBETE: Inteligencia Artificial (IA)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header {
+            background-color: #333;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 80px auto 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .theme-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            position: fixed;
+            bottom: 100px;
+            left: 20px;
+            z-index: 1000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .theme-button:hover {
+            background-color: #45a049;
+        }
+
+        .link-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .link-container a {
+            color: #ffffff;
+            background-color: #4CAF50;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50px;
+            margin: 5px;
+            display: inline-block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .link-container a:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilos para dispositivos menores */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+                margin: 60px auto 10px;
+            }
+
+            header, footer {
+                padding: 10px;
+            }
+        }
+
+        /* Dark theme styles */
+        .dark-theme {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .dark-theme header,
+        .dark-theme footer {
+            background-color: #1e1e1e;
+        }
+
+        .dark-theme .container {
+            background-color: #1e1e1e;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .dark-theme .link-container a {
+            color: #ffffff;
+            background-color: #BB86FC;
+        }
+
+        .dark-theme .link-container a:hover {
+            background-color: #9A67EA;
+            color: white;
+        }
+
+        .dark-theme .theme-button {
+            background-color: #BB86FC;
+        }
+
+        .dark-theme .theme-button:hover {
+            background-color: #9A67EA;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Verbete: Inteligencia Artificial (IA)</h1>
+    </header>
+
+    <div class="container">
+        <section id="definicao">
+            <h2>Definição Técnica</h2>
+            <p>A inteligência artificial é um termo que descreve aplicações com capacidade para reproduzir ou simular o raciocínio humano, incluindo aprendizagem, raciocínio crítico e criatividade, com base em padrões, utilizando técnicas como machine learning (ML) e deep learning.</p>
+            <p>Diferenças distintas entre essas duas formas de aprendizado por meio de padrões. O machine learning, por exemplo, envolve treinar e aprimorar a eficácia da IA com base em dados consumidos. Já o deep learning requer não apenas uma grande quantidade de dados, mas também múltiplas camadas de processamento para permitir que o computador aprenda com mais precisão a executar tarefas semelhantes às realizadas pelos seres humanos, como identificação de imagens ou de voz, por exemplo.</p>
+            <p>Empresas atualmente investem no mercado de IA ou a utilizam em suas operações, desde a criação de chatbots para atendimento ao cliente, como é o caso do Bradesco, Vivo e Uber, até a previsão de preços do petróleo por empresas petrolíferas como a Petrobrás.</p>
+        </section>
+
+        <section id="historia">
+            <h2>História</h2>
+            <p>A evolução da IA foi marcada por muitos temas, abordagens e tecnologias diferentes. Durante muitos anos, a técnica utilizada para a IA era a de programação por regras, onde era necessário fornecer ao computador todas as informações necessárias para que ele pudesse tomar suas decisões. Ao passar do tempo, outras técnicas foram desenvolvidas, sendo uma delas a técnica de aprendizagem de máquina, onde o computador aprende as informações a partir dos dados que lhe foram fornecidos.</p>
+            <p>Um dos principais nomes das ciências e considerado pai da computação, Alan Turing, escreveu um dos estudos mais completos do período sobre o tema. O artigo “Computadores e inteligência” foi publicado em 1950, sendo o primeiro a mencionar o termo “inteligência artificial”. Turing foi um dos principais responsáveis pelo avanço da computação nas décadas de 30 e 40, precursor de diversas áreas da computação.</p>
+            <p>O começo do desenvolvimento das inteligências artificiais ocorreu inicialmente na metade do Século XX, principalmente na década de 1950, com pensadores como Herbert Simon e John McCarthy. No entanto, sua origem data de 1943, quando Warren McCulloch e Walter Pitts criaram o primeiro modelo computacional para redes neurais. O nome inteligência artificial ainda não era usado, mas a criação é reconhecida como sua base de funcionamento; em 1956, John McCarthy mencionou inteligência artificial como um estudo pela primeira vez.</p>
+            <p>Inicialmente, os testes em IA foram repletos de sucessos – porém limitados devido ao desempenho reduzido dos primeiros computadores – o que causava surpresa foi o fato de um computador realizar atividade remotamente inteligente. Em 1964, o primeiro chatbot foi feito, E.L.I.Z.A., que já conseguia conversar com pessoas, porém de forma ainda muito limitada.</p>
+            <p>Após um período de queda nos estudos de IA por aproximadamente 10 anos, a quinta geração de computadores e o rápido avanço da tecnologia permitiram que as inteligências artificiais renascessem e avançassem cada vez mais. Na década de 90, essa área progrediu significativamente, com o auxílio da internet e máquinas cada vez mais potentes, permitindo que pessoas comuns tivessem acesso a elas e que robôs começassem a ser desenvolvidos já com essa inteligência.</p>
+            <p>No século XXI, a inteligência artificial progrediu de forma acelerada, com a internet se tornando ubíqua e as IAs começando a estar presentes em nosso cotidiano. O aprendizado de máquina também foi introduzido e inteligências como o ChatGPT e a Copilot estão presentes no nosso dia a dia, sendo utilizadas em assistentes virtuais, robôs e programas de edição, o que mostra o enorme potencial futuro desse mercado, mesmo já sendo extremamente forte.</p>
+            <p>O futuro das inteligências artificiais é promissor. Estamos presenciando uma possível nova revolução tecnológica, com os processadores ARM e um crescente investimento nessa área. A IA estará presente em diversos setores, embora ainda existam desafios como a implementação de regras e a fiscalização do uso de IAs. Em resumo, as inteligências artificiais têm progredido muito ao longo dos anos, mas é necessário cautela para que esse avanço não saia do nosso controle.</p>
+        </section>
+
+        <section id="atualidade">
+            <h2>Estado Atual</h2>
+            <p>Na atualidade o mercado de IA tem testemunhado um crescimento exponencial, com diversas empresas líderes adotando essa tecnologia para melhorar suas operações e impulsionar a inovação em produtos e serviços. O Bradesco, a Vivo e a Uber são exemplos emblemáticos de empresas que investiram em chatbots para aprimorar o atendimento ao cliente, aumentando a eficiência e a satisfação do usuário. Além disso, empresas petrolíferas como a Petrobrás estão utilizando IA para prever com maior precisão os preços do petróleo, permitindo uma melhor gestão de seus ativos e operações.</p>
+            <p>Nesse contexto, a Nvidia e a Qualcomm emergem como gigantes do setor, impulsionando o desenvolvimento de hardware e software voltados para IA. A Nvidia, em particular, se destacou como a principal fabricante de chips para IA consolidando sua posição como a segunda maior empresa do mundo em termos de valor de mercado. Seu crescimento astronômico, com um aumento de 1883,63% desde 2020, reflete a crescente demanda por tecnologias de IA em diversos setores.</p>
+            <p>Essas empresas têm desempenhado um papel crucial no avanço da IA fornecendo não apenas hardware poderoso, mas também plataformas de software e ferramentas de desenvolvimento que capacitam empresas e desenvolvedores a criar e implementar soluções de IA de maneira eficiente e escalável. Além disso, sua presença no mercado impulsiona a concorrência e a inovação, levando a avanços ainda mais rápidos e significativos na área.</p>
+            <p>Muitas empresas focaram na criação de IAs de qualidade feitas para assistência sendo elas a Google (Google Assistente), OpenAI (ChatGPT), e a Microsoft (Copilot) entre outras.</p>
+            <p>No entanto, o lançamento de chips ARM na Computex em Taiwan promete revolucionar ainda mais o mercado de IA em 2024. Esses chips oferecem uma eficiência energética superior em relação ao desempenho entregue, além de uma arquitetura dedicada para o processamento de redes neurais (NPU). Essa inovação tem o potencial de popularizar ainda mais o uso, a criação e o processamento de novas IAs, abrindo caminho para aplicações mais sofisticadas em áreas como veículos autônomos, saúde, finanças e muito mais. Com a contínua evolução da tecnologia de IA e o surgimento de novas soluções de hardware e software, é esperado que o mercado de IA continue a expandir e transformar profundamente a forma como as empresas operam e interagem com os consumidores.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="link-container">
+                <a href="https://etecspgov-my.sharepoint.com/:p:/g/personal/miguel_cassiano_etec_sp_gov_br/EVxKA2CoMfxJvx-FNwvi6-wBYg5HcYM65zX00nWZxyXFcQ?e=4CkSax&nav=eyJzSWQiOjI1Nn0">Link para PowerPoint</a>
+                <a href="https://www.menti.com/altme8htmtb4">Link para Nuvem de Palavras</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p><b>Desenvolvido por: </b>
+                <br> Miguel Bonilha
+                <br> Henrique Soler
+                <br> Caio Henrique
+                <br> Bruno da Silva
+                <br> João Lucas
+                <br> Evian</p>
+            <br>
+            <br>
+            <br>
+        </section>
+
+        
+    </div>
+
+    <footer>
+        <p>&copy; verbete : Inteligencia Artificial (IA)</p>
+    </footer>
+
+    <button class="theme-button" onclick="toggleTheme()">Mudar Tema</button>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+        }
+    </script>
+</body>
+</html>
